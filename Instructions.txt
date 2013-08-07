@@ -1,0 +1,41 @@
+This script is to help uploaders set the whitelist quickly and simply.
+
+
+
+Installation:
+Install Greasemonkey (Firefox) or TamperMonkey (Chrome)
+Surf to TheVault and Upload Torrent.
+Click on the respective icon and add a new script.
+
+Tampermonkey:
+	Copy and paste the contents of the .js into the edit box that comes up.
+	Save and test by reloading the page.
+Greasemonkey:
+	Click on the icon then New User Script.
+	Give it a name (Zilths aewsome bulk name adder would be nice ;P)
+	Copy and paste the contents of the .js into the edit box that comes up.
+	Save and test by Clicking Execute->Reload & Run.
+
+
+Find the new button "Bulk Add' just before the Do It/Edit it! Button.
+Praise Zilth :P
+
+
+
+How it works:
+It grabs all the available members names and id's and sticks them in an array.
+
+When you click the 'Bulk Add' button it will ask for a (case insensitive) whitespace delimitered name list.
+Press Ok on a blank box to end the prompt and process the names.
+
+it will then find each name in the array and move it to the Exclusive Users list.
+
+It will show how many names have been added.
+it will also show below the form any names which were not found.
+
+
+Tested in Firefox
+
+Enjoy!
+
+Zilth.
